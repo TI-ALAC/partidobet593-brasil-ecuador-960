@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(fonts/Roboto-Bold.ttf);
+    font-weight: regular;
+}
+
+img {
+    object-fit: fill;
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    height: 100vh;
+    z-index: -100;
+    background-size: cover;
+    overflow: hidden;
+}
+
+/* Estilos para pantallas de hasta 768px */
+@media only screen and (max-width: 960px) {
+
+    #title1,
+    #title2,
+    #title3 {
+        font-size: 29pt !important;
+        font-family: 'Roboto';
+        position: absolute;
+    }
+
+    #title1 {
+        color: #fff;
+        left: 53.5%;
+        top: 72%;
+    }
+
+    #title2 {
+        color: #0f0f88;
+        left: 67.5%;
+        top: 72%;
+    }
+
+    #title3 {
+        color: #fff;
+        left: 84.5%;
+        top: 72%;
+    }
+}
