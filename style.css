@@ -25,32 +25,28 @@ img {
     overflow: hidden;
 }
 
-/* Estilos para pantallas de hasta 768px */
-@media only screen and (max-width: 960px) {
+#title1,
+#title2,
+#title3 {
+    font-size: 29pt !important;
+    font-family: 'Roboto';
+    position: absolute;
+}
 
-    #title1,
-    #title2,
-    #title3 {
-        font-size: 29pt !important;
-        font-family: 'Roboto';
-        position: absolute;
-    }
+#title1 {
+    color: #fff;
+    left: 52.5%;
+    top: 72%;
+}
 
-    #title1 {
-        color: #fff;
-        left: 53.5%;
-        top: 72%;
-    }
+#title2 {
+    color: #0f0f88;
+    left: 67.5%;
+    top: 72%;
+}
 
-    #title2 {
-        color: #0f0f88;
-        left: 67.5%;
-        top: 72%;
-    }
-
-    #title3 {
-        color: #fff;
-        left: 84.5%;
-        top: 72%;
-    }
+#title3 {
+    color: #fff;
+    left: 83.5%;
+    top: 72%;
 }
